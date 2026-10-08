@@ -1,0 +1,80 @@
+.benchmark-analysis-container{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.controls {
+    margin: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .case-field {
+        flex: 1 1 420px;
+    }
+
+    .file-picker {
+        display: inline-flex;
+        gap: 12px;
+        align-items: center;
+        padding: 10px 14px;
+        border: 1px solid #c8c8c8;
+        border-radius: 8px;
+        background: #fafafa;
+    }
+
+    .file-picker input[type='file'] {
+        max-width: 360px;
+    }
+}
+
+.info {
+    margin: 0 16px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    .error {
+        color: #b3261e;
+        font-weight: 600;
+    }
+}
+
+.yasgui-wrapper {
+    display: flex;
+    margin: 16px;
+    gap: 16px;
+    flex-wrap: nowrap;
+    align-items: stretch;
+
+    .yasgui-container {
+        min-height: 400px;
+        flex: 1 1 0;
+        min-width: 0;
+    }
+}
+
+.metric-filter{
+    display: flex;
+    gap: 16px;
+}
+
+.filter-controls{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 16px;
+
+    .filter-field {
+        flex: 1 1 120px;
+    }
+}

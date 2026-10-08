@@ -1,0 +1,114 @@
+<div class="benchmark-analysis-container">
+  <h1 class="main-title">T2S-Metrics Result Filter Application</h1>
+
+
+  <div class="controls">
+    <label class="file-picker">
+      <span>Select results .ttl file</span>
+      <input type="file" accept=".ttl,text/turtle" (change)="onFileSelectedResults($event)">
+    </label>
+
+    <mat-form-field class="case-field">
+      <mat-label>Response</mat-label>
+      <input type="text" placeholder="Pick one response" aria-label="Response" matInput [formControl]="caseControl"
+        [matAutocomplete]="autoCase">
+      <mat-autocomplete #autoCase="matAutocomplete">
+        @for (option of filteredCaseOptions | async; track option.id) {
+        <mat-option [value]="option.id">{{option.id}}</mat-option>
+        }
+      </mat-autocomplete>
+    </mat-form-field>
+
+  </div>
+
+
+  <div class="filter-controls">
+    <button mat-raised-button (click)="addMetricFilter()">Add metric filter</button>
+    <button mat-raised-button (click)="applyMetricFilters()"
+      [disabled]="metricsControls.invalid || metricsControls.controls.length == 0">Apply metric filters</button>
+  </div>
+
+  @for (filter of metricsControls.controls; track filter.value.id; let i = $index) {
+  <div class="metric-filter" [formGroup]="filter">
+    <mat-form-field class="metric-field">
+      <mat-label>Metric</mat-label>
+      <input type="text" placeholder="Pick one metric" aria-label="Metric" matInput formControlName="metric"
+        [matAutocomplete]="autoMetric">
+      <mat-autocomplete #autoMetric="matAutocomplete">
+        @for (option of filteredMetricOptions.get(filter.value.id) | async; track option) {
+        <mat-option [value]="option">{{option}}</mat-option>
+        }
+      </mat-autocomplete>
+    </mat-form-field>
+
+    <mat-form-field class="min-field">
+      <mat-label>Min</mat-label>
+      <input type="number" placeholder="Min value" aria-label="Min" matInput formControlName="min" min="0" max="1"
+        step="0.05">
+    </mat-form-field>
+
+    <mat-form-field class="max-field">
+      <mat-label>Max</mat-label>
+      <input type="number" placeholder="Max value" aria-label="Max" matInput formControlName="max" min="0" max="1"
+        step="0.05">
+    </mat-form-field>
+
+    <button mat-icon-button color="warn" (click)="removeMetricFilter(i)">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+  }
+
+  <div class="info">
+    @if (fileName) {
+    <span>Loaded file: {{ fileName }}</span>
+    }
+    @if (caseOptions.length) {
+    <span>Filtered Results: {{ caseOptions.length }}</span>
+    }
+    @if (parseError) {
+    <span class="error">{{ parseError }}</span>
+    }
+  </div>
+
+
+  <div>
+    <h2>System Name</h2>
+    <div>{{ selectedCase?.['system_name'] }}</div>
+    <h2>Question</h2>
+    <div>{{ selectedCase?.question }}</div>
+  </div>
+  <div class="yasgui-wrapper">
+    <div class="yasgui-container">
+      <h2>Expected Query</h2>
+      <div #yasguiExpected></div>
+    </div>
+    <div class="yasgui-container">
+      <h2>Output Query</h2>
+      <div #yasguiOutput></div>
+    </div>
+  </div>
+
+  <div>
+    <h2>Scores</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (item of selectedCase | keyvalue; track item.key) {
+        @if (item.key !== 'id' && item.key !== 'question' && item.key !== 'system_name' && item.key !== 'golden' &&
+        item.key !== 'generated') {
+        <tr>
+          <td>{{ item.key }}</td>
+          <td>{{ item.value }}</td>
+        </tr>
+        }
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

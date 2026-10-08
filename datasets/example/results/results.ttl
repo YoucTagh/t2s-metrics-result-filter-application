@@ -1,0 +1,216 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix t2s: <http://ns.inria.fr/t2s/ontology#> .
+@prefix t2si: <http://ns.inria.fr/t2s/instance#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:uuid:01827f73-fa8f-4aba-9a74-43616cde9602> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:f889cb9f-01c5-4c22-abfe-89972a13acf7> ;
+    t2s:hasTarget <urn:uuid:f6e04cce-48eb-48a4-b451-cc4fcb72a7e7> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:2a3fcb75-0b1e-4790-9244-1d1eff230c01> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:4071ffab-6a36-4aaa-9ab5-e1c735b6148b> ;
+    t2s:hasTarget <urn:uuid:f6e04cce-48eb-48a4-b451-cc4fcb72a7e7> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:2e3107fb-6584-4a48-aaff-c6430e78af07> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:4df81e2e-12f3-4153-b1ca-8965f3b3ad0e> ;
+    t2s:hasTarget <urn:uuid:c8220be3-1b30-4cf8-b205-7f7125a89db0> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:3a6f4c16-b3fc-4691-b7d4-dc7b483e69ea> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:b2641e89-61b4-4950-9f2b-c6e1ab53e2f6> ;
+    t2s:hasTarget <urn:uuid:f1300b94-0d3e-4d84-b2b0-47b37aa943cb> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:3b1eec87-3c19-4a7b-be79-1a59408bf152> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:147e5526-0892-431c-b333-8d4936dd9ab8> ;
+    t2s:hasTarget <urn:uuid:f6e04cce-48eb-48a4-b451-cc4fcb72a7e7> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:3dbaaab1-92ae-4f8d-8107-258018511ecb> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:ec65461c-d158-4450-b769-611e78a998c8> ;
+    t2s:hasTarget <urn:uuid:f1300b94-0d3e-4d84-b2b0-47b37aa943cb> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:4da7913b-83d9-463e-8186-42f6b90a0677> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:bff19bac-4669-4962-8348-f951c915738b> ;
+    t2s:hasTarget <urn:uuid:f1300b94-0d3e-4d84-b2b0-47b37aa943cb> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:539a4e1f-e67b-4292-b86e-44c11eef8d2e> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:5c49b316-e6d7-4589-a919-0193157089e1> ;
+    t2s:hasTarget <urn:uuid:c8220be3-1b30-4cf8-b205-7f7125a89db0> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:561bcfff-fc35-4f52-b6a7-83109b118b4c> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:df9c747b-160f-4d1d-bb54-6b4cfc218e6a> ;
+    t2s:hasTarget <urn:uuid:c8220be3-1b30-4cf8-b205-7f7125a89db0> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:6321fe33-b445-4706-bf5f-c2f2e2cc98a2> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:b349f1f4-b50b-479e-8190-939e9958d717> ;
+    t2s:hasTarget <urn:uuid:c8220be3-1b30-4cf8-b205-7f7125a89db0> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:7c52b0ab-a819-4cba-a12a-37d356f8acf8> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:59fa9d3e-d843-48ab-97db-e47a429fdee7> ;
+    t2s:hasTarget <urn:uuid:f6e04cce-48eb-48a4-b451-cc4fcb72a7e7> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:b955306a-c378-43a9-9d9f-bd0d749fdd98> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:00b47eeb-4e21-4fdb-a4cb-9fa61503ae66> ;
+    t2s:hasTarget <urn:uuid:c8220be3-1b30-4cf8-b205-7f7125a89db0> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:d0d3af43-47a1-4e53-b024-d0d10023416c> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:78ee9001-fdaf-4db4-ae4c-223e856e9d1b> ;
+    t2s:hasTarget <urn:uuid:f6e04cce-48eb-48a4-b451-cc4fcb72a7e7> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:eb7b0674-80b0-4e65-b699-0172d2cfebf2> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:73356010-b535-4c8f-bff4-81832d2a19d3> ;
+    t2s:hasTarget <urn:uuid:f1300b94-0d3e-4d84-b2b0-47b37aa943cb> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:ec9b08b0-081d-446f-b315-9a98ed256462> a t2s:Annotation ;
+    t2s:hasBody <urn:uuid:0ebe3796-3f8e-4830-b5af-ccb46c49ee0f> ;
+    t2s:hasTarget <urn:uuid:f1300b94-0d3e-4d84-b2b0-47b37aa943cb> ;
+    oa:motivation "assessing" .
+
+<urn:uuid:f7ec5042-6195-40a6-949b-1910c34dedf6> a t2s:System ;
+    rdfs:label "./datasets/example/eval/example.jsonl" ;
+    t2s:participatesIn <urn:uuid:f6e04cce-48eb-48a4-b451-cc4fcb72a7e7> ;
+    t2s:providedResponse <urn:uuid:c8220be3-1b30-4cf8-b205-7f7125a89db0>,
+        <urn:uuid:f1300b94-0d3e-4d84-b2b0-47b37aa943cb> .
+
+<urn:uuid:00b47eeb-4e21-4fdb-a4cb-9fa61503ae66> a t2s:Score ;
+    t2s:forMetric t2si:bleu ;
+    t2s:scoreValue 0.21725885420079705 .
+
+<urn:uuid:0719b6dc-8cd8-4c43-9ad9-fd3d05970f25> a t2s:Query ;
+    t2s:hasResultSet <urn:uuid:11ca7959-5cf4-4d52-bc92-f921954ceb1a> ;
+    t2s:queryText "SELECT ?y WHERE { ?y a <http://example.org/Person> }" .
+
+<urn:uuid:0ebe3796-3f8e-4830-b5af-ccb46c49ee0f> a t2s:Score ;
+    t2s:forMetric t2si:answerset_precision ;
+    t2s:scoreValue 0.0 .
+
+<urn:uuid:11ca7959-5cf4-4d52-bc92-f921954ceb1a> a t2s:ResultSet ;
+    t2s:resultSetValueJSON "{\"head\": {\"vars\": [\"y\"]}, \"results\": {\"bindings\": [{\"y\": {\"type\": \"uri\", \"value\": \"http://example.org/Alice\"}}, {\"y\": {\"type\": \"uri\", \"value\": \"http://example.org/Bob\"}}]}}" .
+
+<urn:uuid:147e5526-0892-431c-b333-8d4936dd9ab8> a t2s:Score ;
+    t2s:forMetric t2si:answerset_f1 ;
+    t2s:scoreValue 0.5 .
+
+<urn:uuid:4071ffab-6a36-4aaa-9ab5-e1c735b6148b> a t2s:Score ;
+    t2s:forMetric t2si:answerset_recall ;
+    t2s:scoreValue 0.5 .
+
+<urn:uuid:483ab4a7-a0cc-46f0-b921-ec03b6155f8e> a t2s:ResultSet ;
+    t2s:resultSetValueJSON "{\"head\": {\"vars\": [\"x\"]}, \"results\": {\"bindings\": [{\"x\": {\"type\": \"uri\", \"value\": \"http://example.org/Alice\"}}, {\"x\": {\"type\": \"uri\", \"value\": \"http://example.org/Bob\"}}]}}" .
+
+<urn:uuid:4df81e2e-12f3-4153-b1ca-8965f3b3ad0e> a t2s:Score ;
+    t2s:forMetric t2si:answerset_f1 ;
+    t2s:scoreValue 1.0 .
+
+<urn:uuid:59fa9d3e-d843-48ab-97db-e47a429fdee7> a t2s:Score ;
+    t2s:forMetric t2si:bleu ;
+    t2s:scoreValue 0.46218281769367225 .
+
+<urn:uuid:5c49b316-e6d7-4589-a919-0193157089e1> a t2s:Score ;
+    t2s:forMetric t2si:naive-can-rouge-4 ;
+    t2s:scoreValue 1.0 .
+
+<urn:uuid:6c2165c8-46b9-472e-a23b-bc722eefcafb> a t2s:Query ;
+    t2s:hasResultSet <urn:uuid:e6c154a5-21d2-4adc-b680-737a1c8a376a> ;
+    t2s:queryText "SELECT ?x WHERE { ?x <http://example.org/age> 30 }" .
+
+<urn:uuid:73356010-b535-4c8f-bff4-81832d2a19d3> a t2s:Score ;
+    t2s:forMetric t2si:answerset_recall ;
+    t2s:scoreValue 0.0 .
+
+<urn:uuid:78ee9001-fdaf-4db4-ae4c-223e856e9d1b> a t2s:Score ;
+    t2s:forMetric t2si:naive-can-rouge-4 ;
+    t2s:scoreValue 0.9166666666666667 .
+
+<urn:uuid:830650fb-05c6-45a1-a95f-257d948c0baf> a t2s:ResultSet ;
+    t2s:resultSetValueJSON "{\"head\": {\"vars\": [\"x\"]}, \"results\": {\"bindings\": [{\"x\": {\"type\": \"uri\", \"value\": \"http://example.org/Bob\"}}]}}" .
+
+<urn:uuid:9e3b7546-ea0e-4e0d-b610-933a8a4c58e4> a t2s:Query ;
+    t2s:hasResultSet <urn:uuid:830650fb-05c6-45a1-a95f-257d948c0baf> ;
+    t2s:queryText "SELECT ?x WHERE { ?x <http://example.org/age> 40 }" .
+
+<urn:uuid:b18a2ba7-719a-469a-9f73-b8357c4994a0> a t2s:Dataset ;
+    rdfs:label "example" ;
+    t2s:hasCase <urn:uuid:1637c752-b693-462f-8e8c-60d112baf413>,
+        <urn:uuid:fd623601-e281-48bf-894b-97a8aeb1f330> .
+
+<urn:uuid:b2641e89-61b4-4950-9f2b-c6e1ab53e2f6> a t2s:Score ;
+    t2s:forMetric t2si:naive-can-rouge-4 ;
+    t2s:scoreValue 0.8333333333333334 .
+
+<urn:uuid:b349f1f4-b50b-479e-8190-939e9958d717> a t2s:Score ;
+    t2s:forMetric t2si:answerset_precision ;
+    t2s:scoreValue 1.0 .
+
+<urn:uuid:bff19bac-4669-4962-8348-f951c915738b> a t2s:Score ;
+    t2s:forMetric t2si:answerset_f1 ;
+    t2s:scoreValue 0.0 .
+
+<urn:uuid:c6541afa-25df-470d-bcf5-8a80e9fd5288> a t2s:Query ;
+    t2s:hasResultSet <urn:uuid:483ab4a7-a0cc-46f0-b921-ec03b6155f8e> ;
+    t2s:queryText "SELECT ?x WHERE { ?x a <http://example.org/Person> }" .
+
+<urn:uuid:df9c747b-160f-4d1d-bb54-6b4cfc218e6a> a t2s:Score ;
+    t2s:forMetric t2si:answerset_recall ;
+    t2s:scoreValue 1.0 .
+
+<urn:uuid:e6c154a5-21d2-4adc-b680-737a1c8a376a> a t2s:ResultSet ;
+    t2s:resultSetValueJSON "{\"head\": {\"vars\": [\"x\"]}, \"results\": {\"bindings\": [{\"x\": {\"type\": \"uri\", \"value\": \"http://example.org/Alice\"}}]}}" .
+
+<urn:uuid:ec65461c-d158-4450-b769-611e78a998c8> a t2s:Score ;
+    t2s:forMetric t2si:bleu ;
+    t2s:scoreValue 0.7071067811865475 .
+
+<urn:uuid:f889cb9f-01c5-4c22-abfe-89972a13acf7> a t2s:Score ;
+    t2s:forMetric t2si:answerset_precision ;
+    t2s:scoreValue 0.5 .
+
+<urn:uuid:1637c752-b693-462f-8e8c-60d112baf413> a t2s:Case ;
+    t2s:caseID "q2" ;
+    t2s:hasGoldQuery <urn:uuid:6c2165c8-46b9-472e-a23b-bc722eefcafb> ;
+    t2s:question ""@en .
+
+<urn:uuid:fd623601-e281-48bf-894b-97a8aeb1f330> a t2s:Case ;
+    t2s:caseID "q1" ;
+    t2s:hasGoldQuery <urn:uuid:c6541afa-25df-470d-bcf5-8a80e9fd5288> ;
+    t2s:question ""@en .
+
+t2si:answerset_f1 a t2s:Metric ;
+    rdfs:label "answerset_f1" .
+
+t2si:answerset_precision a t2s:Metric ;
+    rdfs:label "answerset_precision" .
+
+t2si:answerset_recall a t2s:Metric ;
+    rdfs:label "answerset_recall" .
+
+t2si:bleu a t2s:Metric ;
+    rdfs:label "bleu" .
+
+t2si:naive-can-rouge-4 a t2s:Metric ;
+    rdfs:label "naive-can-rouge-4" .
+
+<urn:uuid:c8220be3-1b30-4cf8-b205-7f7125a89db0> a t2s:Response ;
+    t2s:hasGeneratedQuery <urn:uuid:0719b6dc-8cd8-4c43-9ad9-fd3d05970f25> ;
+    t2s:isResponseTo <urn:uuid:fd623601-e281-48bf-894b-97a8aeb1f330> .
+
+<urn:uuid:f1300b94-0d3e-4d84-b2b0-47b37aa943cb> a t2s:Response ;
+    t2s:hasGeneratedQuery <urn:uuid:9e3b7546-ea0e-4e0d-b610-933a8a4c58e4> ;
+    t2s:isResponseTo <urn:uuid:1637c752-b693-462f-8e8c-60d112baf413> .
+
+<urn:uuid:f6e04cce-48eb-48a4-b451-cc4fcb72a7e7> a t2s:Experiment ;
+    t2s:evaluatedOn <urn:uuid:b18a2ba7-719a-469a-9f73-b8357c4994a0> .
+
